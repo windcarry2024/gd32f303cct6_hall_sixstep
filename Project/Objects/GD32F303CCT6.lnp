@@ -1,0 +1,26 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\startup_gd32f30x_hd.o"
+".\objects\gd32f30x_misc.o"
+".\objects\gd32f30x_gpio.o"
+".\objects\gd32f30x_rcu.o"
+".\objects\gd32f30x_adc.o"
+".\objects\gd32f30x_dma.o"
+".\objects\gd32f30x_exti.o"
+".\objects\gd32f30x_pmu.o"
+".\objects\gd32f30x_usart.o"
+".\objects\gd32f30x_timer.o"
+".\objects\btn1.o"
+".\objects\ctrl.o"
+".\objects\led.o"
+".\objects\sysck.o"
+".\objects\timing.o"
+".\objects\bldc.o"
+".\objects\hall.o"
+".\objects\adc.o"
+".\objects\main.o"
+".\objects\gd32f30x_it.o"
+".\objects\system_gd32f30x.o"
+--library_type=microlib --strict --scatter ".\Objects\GD32F303CCT6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\GD32F303CCT6.map" -o .\Objects\GD32F303CCT6.axf

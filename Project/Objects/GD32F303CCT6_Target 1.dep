@@ -1,0 +1,485 @@
+Dependencies for Project 'GD32F303CCT6', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\Firmware\CMSIS\GD\GD32F30x\Source\ARM\startup_gd32f30x_hd.s)(0x6982FFDB)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "GD32F30X_HD SETA 1"--list .\listings\startup_gd32f30x_hd.lst --xref -o .\objects\startup_gd32f30x_hd.o --depend .\objects\startup_gd32f30x_hd.d)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_misc.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_misc.o --omf_browse .\objects\gd32f30x_misc.crf --depend .\objects\gd32f30x_misc.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_gpio.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_gpio.o --omf_browse .\objects\gd32f30x_gpio.crf --depend .\objects\gd32f30x_gpio.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_rcu.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_rcu.o --omf_browse .\objects\gd32f30x_rcu.crf --depend .\objects\gd32f30x_rcu.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_adc.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_adc.o --omf_browse .\objects\gd32f30x_adc.crf --depend .\objects\gd32f30x_adc.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_dma.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_dma.o --omf_browse .\objects\gd32f30x_dma.crf --depend .\objects\gd32f30x_dma.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x6A536945)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_exti.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_exti.o --omf_browse .\objects\gd32f30x_exti.crf --depend .\objects\gd32f30x_exti.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_pmu.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_pmu.o --omf_browse .\objects\gd32f30x_pmu.crf --depend .\objects\gd32f30x_pmu.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_usart.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_usart.o --omf_browse .\objects\gd32f30x_usart.crf --depend .\objects\gd32f30x_usart.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+F (..\Firmware\GD32F30x_standard_peripheral\Source\gd32f30x_timer.c)(0x6982FFDC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_timer.o --omf_browse .\objects\gd32f30x_timer.crf --depend .\objects\gd32f30x_timer.d)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+F (..\User\service\btn1.c)(0x6AA274EC)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\btn1.o --omf_browse .\objects\btn1.crf --depend .\objects\btn1.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\service\btn1.h)(0x6AA7AA1C)()
+F (..\User\service\ctrl.c)(0x6ABB281F)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\ctrl.o --omf_browse .\objects\ctrl.crf --depend .\objects\ctrl.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\service\ctrl.h)(0x6AA2740C)()
+F (..\User\service\led.c)(0x6AA28E70)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\service\led.h)(0x6AA7AA16)()
+F (..\User\service\sysck.c)(0x6AA28122)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\sysck.o --omf_browse .\objects\sysck.crf --depend .\objects\sysck.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\service\sysck.h)(0x6AA27944)()
+F (..\User\service\timing.c)(0x6AA62A1A)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\timing.o --omf_browse .\objects\timing.crf --depend .\objects\timing.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\service\timing.h)(0x6AA7AA12)()
+F (..\User\service\bldc.c)(0x6ABB256C)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\bldc.o --omf_browse .\objects\bldc.crf --depend .\objects\bldc.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\service\bldc.h)(0x6AB0BE1E)()
+F (..\User\service\hall.c)(0x6AB1319E)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\hall.o --omf_browse .\objects\hall.crf --depend .\objects\hall.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\service\hall.h)(0x6AACDA3A)()
+F (..\User\service\adc.c)(0x6AAF4D90)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\service\adc.h)(0x6AAEC464)()
+F (..\User\main.c)(0x6AB787B7)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\main.h)(0x6AB130DC)()
+F (..\User\gd32f30x_it.c)(0x6AACD82E)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\gd32f30x_it.o --omf_browse .\objects\gd32f30x_it.crf --depend .\objects\gd32f30x_it.d)
+I (..\User\main.h)(0x6AB130DC)
+I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x6A536945)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
+I (..\User\gd32f30x_it.h)(0x6AABEB76)
+I (..\User\service\sysck.h)(0x6AA27944)
+I (..\User\service\timing.h)(0x6AA7AA12)
+I (..\User\service\btn1.h)(0x6AA7AA1C)
+I (..\User\service\led.h)(0x6AA7AA16)
+I (..\User\service\ctrl.h)(0x6AA2740C)
+I (..\User\service\bldc.h)(0x6AB0BE1E)
+I (..\User\service\hall.h)(0x6AACDA3A)
+I (..\User\service\adc.h)(0x6AAEC464)
+F (..\User\gd32f30x_it.h)(0x6AABEB76)()
+F (..\User\gd32f30x_libopt.h)(0x6A9BF628)()
+F (..\Firmware\CMSIS\GD\GD32F30x\Source\system_gd32f30x.c)(0x6AA27CE9)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Firmware\CMSIS\GD\GD32F30x\Include -I ..\Firmware\CMSIS -I ..\Firmware\GD32F30x_standard_peripheral\Include -I ..\User -I ..\User\service -I D:\Keil_v5\ARM\ARMCC\include-ID:\Keil_v5\Arm\Packs\GigaDevice\GD32F30x_DFP\2.6.0\Device\Include-D__UVISION_VERSION="538" -DGD32F30X_HD -DGD32F30X_HD-o .\objects\system_gd32f30x.o --omf_browse .\objects\system_gd32f30x.crf --depend .\objects\system_gd32f30x.d)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x6A9BF241)
+I (..\Firmware\CMSIS\core_cm4.h)(0x697AD2EC)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6A536945)
+I (..\Firmware\CMSIS\core_cmInstr.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\core_cmFunc.h)(0x697AD2EB)
+I (..\Firmware\CMSIS\core_cm4_simd.h)(0x697AD2EC)
+I (..\Firmware\CMSIS\GD\GD32F30x\Include\system_gd32f30x.h)(0x697AD2EC)
+I (..\User\gd32f30x_libopt.h)(0x6A9BF628)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_rcu.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_usart.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_gpio.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_timer.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_adc.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_dma.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exti.h)(0x6982FFDC)
+I (..\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_pmu.h)(0x6982FFDC)
